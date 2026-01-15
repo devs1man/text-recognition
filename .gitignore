@@ -1,0 +1,23 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# --- Virtual Environment ---
+venv/
+.venv/
+
+# --- Environment variables / secrets ---
+.env
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- VS Code (optional) ---
+.vscode/
+
+# --- Local uploads (if you create upload folder) ---
+uploads/
