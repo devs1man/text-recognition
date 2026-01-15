@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text box detector</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Text detection (EasyOCR)</h1>
+
+    <div class="container">
+      <div class="left">
+        <input type="file" , id="imageInput" , accept="image/*" />
+        <button id="runBtn">Detect Text</button>
+
+        <div class="canvasWrap">
+          <img id="preview" />
+          <canvas id="overlay"></canvas>
+        </div>
+      </div>
+      <div class="right">
+        <h2>Clicked Text</h2>
+        <p><b>Text:</b><span id="clickedConf">---</span></p>
+        <h2>All results</h2>
+        <div id="allResults"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
