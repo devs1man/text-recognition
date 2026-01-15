@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.canvasWrap {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  border: 2px solid #333;
+  max-width: 100%;
+}
+
+#preview {
+  max-width: 100%;
+  display: block;
+}
+
+#overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: auto;
+}
+
+button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.resultItem {
+  padding: 8px;
+  border: 1px solid #aaa;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
